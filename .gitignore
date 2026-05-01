@@ -1,3 +1,6 @@
+# Unrelated datasets
+ds/
+
 # Python environments
 .venv/
 .venv*/
@@ -8,12 +11,8 @@
 # Experiment artifacts
 wandb/
 .qodo/
+artifacts/mel_cache.pt
 
-# Large datasets and generated artifacts
-data/raw/
-artifacts/*.pt
-artifacts/*.pth
-artifacts/*.ckpt
 
 # OS / editor
 .DS_Store
