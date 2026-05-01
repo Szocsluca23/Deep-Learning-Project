@@ -1,6 +1,9 @@
 # Unrelated datasets
 ds/
 
+# Large raw data (too big for GitHub — share via Drive/OneDrive)
+data/raw/
+
 # Python environments
 .venv/
 .venv*/
