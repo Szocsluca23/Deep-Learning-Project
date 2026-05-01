@@ -1,0 +1,21 @@
+# Python environments
+.venv/
+.venv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment artifacts
+wandb/
+.qodo/
+
+# Large datasets and generated artifacts
+data/raw/
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.ckpt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
