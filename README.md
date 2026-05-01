@@ -8,7 +8,7 @@ Core objective:
 - simulate audio-image misalignment (label noise) from 0% to 50%
 - measure how retrieval quality degrades
 
-## Project idea (short)
+## Project idea 
 
 The model learns a shared embedding space for:
 - audio captions (mel spectrogram -> audio embedding)
@@ -70,7 +70,7 @@ Observed trend:
 - smooth monotonic degradation as misalignment increases
 - R@10 drops from 21.14% to 3.30% between 0% and 50% noise
 
-## Next task: Noise-Robust Training (for teammates)
+## Next task: Noise-Robust Training
 
 This is the planned extension beyond the baseline.
 
