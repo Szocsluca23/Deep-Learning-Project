@@ -109,12 +109,24 @@ Recommended additional metrics:
 - top-50 hit rate
 - matched vs unmatched similarity gap
 
+## Dataset download
+
+The raw data is not tracked in this repo (too large). Download it manually:
+
+- **Flickr8k images** (needed to regenerate `image_features.pt`):  
+  https://www.kaggle.com/datasets/adityajn105/flickr8k
+
+- **Flickr Audio Captions Corpus** (the 40k WAV files):  
+  https://groups.csail.mit.edu/sls/downloads/flickraudio/
+
+Place images under `data/raw/Images/` and audio under `data/raw/flickr_audio/flickr_audio/wavs/`.
+
 ## Quick start
 
 1. Create and activate a Python environment.
 2. Install dependencies: PyTorch, NumPy, SciPy, Matplotlib, scikit-learn, tqdm.
-3. Place metadata in `data/metadata/` and datasets in `data/raw/`.
-4. Place or generate artifacts in `artifacts/`.
+3. Download datasets (see above) and place them in `data/raw/`.
+4. `artifacts/image_features.pt` is already committed. `mel_cache.pt` will be auto-generated on first run.
 5. Run `notebooks/flickr_audio_retrieval.ipynb` from top to bottom.
 
 ## Notes
